@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang = 'eng'>
+    <head>
+        <meta charset="UTF-8">
+        <meta content = "html" >
+
+    </head>
+    <body>
+        <h1>The sky is clody &#9729; &amp; it rain's &#9748; today.</h1>
+        <table border="black">
+        <caption>A test table with merged cells.</caption>
+        <thead>
+            <tr>
+                <th rowspan= "2"> </th>
+                <th colspan= "2"> Average </th>
+                <th rowspan= "2"> Red Eyes</th>
+            </tr>
+            <tr>
+                <td> Height </td>
+                <td> weight</td>
+            </tr>
+            <tr>
+                <td> Males</td>
+                <td> 1.9</td>
+                <td> 0.003</td>
+                <td> 40%</td>
+            </tr>
+            <tr>
+                <td>Females</td>
+                <td> 1.5</td>
+                <td> 0.002</td>
+                <td> 43%</td>
+            </tr>
+        </thead>      
+        </table>
+        <p>
+            <button>enter</button>
+        <form action="/action.php">
+            <div>
+        <!--in lable and input the id is the connection link which remain same in both to connect entities -->
+            <label for="username" > Username:</label>
+            <input type="text" placeholder="Enter username" id="username" >
+            </div>
+         <!-- Password
+            <input type="password" placeholder="Enter your password" name="Password">
+           D.O.B
+            <input type="number" placeholder="Enter your date of birth" name="D.O.B"> -->
+            <br>
+            <div>
+                <label for="password">Password:</label>
+                <input type="password" placeholder="Enter your password" id="password">
+            </div>
+            <br>
+            <div>
+                <label for="Age"> Age:</label>
+                <input type="number" placeholder="number" id="Age">
+            </div>
+            <br>
+            <!--name attribute is used to link the UI name = value in the backend side -->
+            <button>submit</button>
+        </form>
+        <br>
+        <!--connecting the form with google-->
+        <form action="https://www.google.com/?zx=1779819275009">
+            <label for="zx">Search:</label>
+            <input type="text" placeholder="Search Google" name="zx">
+            <br>
+            <button type="submit"> Connect </button>
+            <hr>
+            <input type="checkbox" name="Age" id="age" >
+            <button type="submit">I am 21 yrs old</button>
+            <hr>
+            What's your Favourite among them?
+            <br>
+            <!-- name remains the same for the single choice-->
+            <label for="fruit"> Apple</label>
+            <input type="radio" name="fruit" id="apple" Placeholder="apple/Strawberry/Chiku" value="Apple"/>
+            <label for="fruit"> chiku</label>
+            <input type="radio" name="fruit" id="chiku" Placeholder="apple/Strawberry/Chiku" value="chiku"/>
+            <label for="fruit"> Strawberry</label>
+            <input type="radio" name="fruit" id="Strawberry" Placeholder="apple/Strawberry/Chiku" value="Strawberry"/>
+            <br>
+            <button type="submit"> submit </button>
+            <hr>
+            Choose your trip?
+            <br>
+            <!--when we have to choose the multiple options in radio button change the name-->
+            <label for="Place">Dubai</label>
+            <input type="checkbox"  name="Place"  id="Dubai" value="Dubai"/>
+            <label for="Place">Shilong</label>
+            <input type="checkbox"  name="Place2"  id="Shilong" value="Shilong"/>
+            <label for="Place">Bangkok</label>
+            <input type="checkbox"  name="Place3"  id="Bangkok" value="Bangkok"/>
+            <label for="Place">Bali</label>
+            <input type="checkbox"  name="Place4"  id="Bali" value="Bali"/>
+            <label for="Place">Masoori</label>
+            <input type="checkbox"  name="Place5"  id="Masoori" value="Masoori"/>
+            <label for="Place">Google Warsaw</label>
+            <input type="checkbox"  name="Place6"  id="Polland" value="Polland"/>
+            <label for="Place">Bangalore</label>
+            <input type="checkbox"  name="Place7"  id="Bangalore" value="Bangalore"/>
+            <label for="Place">Japan</label>
+            <input type="checkbox"  name="Place8"  id="Japan" value="Japan"/>
+            <br>
+            <button type="submit">submit</button>
+            <hr>
+            Choose your profession type
+            <select name="Profession" id="Intern MS">
+            <option value="Internship">Internship</option>
+            <option value="Student">Student</option>
+            <option value="Employee">Employee</option>
+            <option value="Developer">Developer</option>
+            </select>
+            <br>
+            <button type="submit">submit</button>
+            <hr>
+            Choose the music vol!!
+            <label for="volume"></label>
+            <input type="range" name="volume"  min="0" max="100" value="70" id="Music">
+            <br>
+            <button type="submit">submit</button>
+            <hr>
+            <label for="textarea">Give your valuable Feedback:</label>
+            <textarea name="textarea" id="Feedback" row="10" cols="10"></textarea>
+            <br>
+            <button>submit</button>
+            </form>
+            <hr>
+            <!--Registration Form-->
+            <form action="https://aktuuerp.com/">
+                <h1>Registration Form</h1>
+                <div>
+                <label for="Full name">Full name</label>
+                <input type="text" name="Full name" id="username" placeholder="first name">
+                <input type="text" name="Full name" id="username" placeholder="last name">
+                </div>
+                <br>
+                <div>
+                pls enter your gender:
+                <select name="gender" id="gen">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Others"></option>
+                </select>
+                </div>
+                <br>
+                <div>
+                Do you agree to all the terms of services?
+                <input type="checkbox" name="terms" id="sevices" checked/>
+                <label for="terms">Yes,I agree</label>
+                </div>
+                <div>
+                <button type="submit">Register</button>
+                </div>
+                <hr>
+            </form>
+    </body>
+
+</html>
