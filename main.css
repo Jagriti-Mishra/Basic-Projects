@@ -1,0 +1,41 @@
+h1{
+    text-align: center;
+    text-decoration: underline;
+    background-color: rgb(71, 8, 100);
+    color: rgb(208, 29, 142);
+}
+p{
+    color: teal;
+}
+br{
+    color: hotpink;
+}
+h2{
+    text-decoration: underline;
+    text-align: center;
+    color: cornflowerblue;
+}
+li{
+    color: crimson;
+}
+h3{
+    text-decoration: underline;
+    text-align: center;
+    color:orchid;
+}
+h4{
+    color: rgb(7, 73, 51);
+}
+a{
+   text-decoration: none;
+    color: rgba(18, 3, 3, 0.768);
+}
+address{
+    color: hsl(16, 100%, 66%);
+}
+h5{
+    color: lab(43.38% 65.17 -60.11);
+}
+hr{
+    color: #00a400;;
+}
