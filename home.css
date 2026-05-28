@@ -1,0 +1,33 @@
+H3{
+    text-align: start;
+    color: #202122;
+    font-family: sans-serif;
+    text-decoration: underline;
+}
+h1{
+    font-family: 'Linux Libertine','Georgia','Times','Source Serif 4','serif';
+    text-align: center;
+    font-size: 1.8em;
+    text-decoration: solid;
+}
+a{
+    text-decoration: none;
+}
+em,p{
+    flex-grow: 1;
+    padding: 0;
+    border: 0;
+}
+h3,h4,h5{
+    --font-size-medium: var(--font-size-medium, 1rem);
+    --line-height-medium: 1.6;
+    --line-height-content: 1.625;
+}
+.Innovation{
+    text-align: center;
+}
+body{
+    background-color: var(--background-color-neutral-subtle, #f8f9fa);
+    color: var(--color-base, #202122);
+    line-height: normal;
+}
