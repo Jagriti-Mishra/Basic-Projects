@@ -1,0 +1,36 @@
+h1,h3{
+    color: rgb(185, 43, 39);
+    text-align: center;
+    text-decoration: underline;
+}
+*{
+    background-color: black;
+    text-align:center;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#login{
+    background-color: brown;
+    color:white;
+}
+#signup{
+    background-color: crimson;
+    color: white;
+}
+input{
+    background-color: white;
+}
+p{
+    text-transform: uppercase;
+    color: floralwhite;
+}
+.upvote{
+    background-color: white;
+    color: brown;
+}
+.answer{
+    background-color: white;
+    color: brown;
+}
