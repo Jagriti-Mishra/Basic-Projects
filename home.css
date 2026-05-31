@@ -31,3 +31,7 @@ body{
     color: var(--color-base, #202122);
     line-height: normal;
 }
+/*descendant selector */
+div span ul li{
+    color: crimson;
+}
