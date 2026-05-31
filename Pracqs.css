@@ -1,0 +1,41 @@
+#mainTopic{
+    color: cornflowerblue;
+}
+*{
+    text-align: center;
+}
+h1,h3,h5{
+    font-family: sans-serif;
+}
+h3 p{
+    color: fuchsia;
+    background-color: black;
+}
+div {
+    background-color: purple;
+    color: azure;
+}
+input{
+    background-color: inherit;
+    color: inherit;
+}
+button{
+    background-color: inherit;
+    color:inherit;
+}
+button:hover{
+    background-color: yellow;
+    color:blueviolet;
+}
+p:nth-of-type(odd){
+    color: red;
+}
+h1::first-letter{
+    color: black;
+}
+#yes:checked +label{
+    background-color: black;
+    color: darkred
+    
+
+}
