@@ -1,0 +1,21 @@
+div{
+    width: 500px;
+    border: 5px solid grey ; /*width | style | color */
+    border-radius: 10px;
+    padding: 10px; /*top|right|bottom|left */
+    margin-bottom: 50px;
+    margin: 0 auto;
+}
+h1{
+    border: 1px dotted red;
+    padding: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+button{
+    border-radius: 50%;
+    color: darkblue;
+    position: absolute;
+    left:550px;
+    bottom: 25px;
+}
